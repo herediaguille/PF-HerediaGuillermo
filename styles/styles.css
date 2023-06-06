@@ -1,0 +1,142 @@
+*{
+    font-family: librebidibu-regular;
+    src: url("./font/LibreBodoni-Regular.ttf");
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #FFD46B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+body{
+    background-color: #FFD46B;
+}
+.header__nav--menu{
+    list-style: none;
+    padding: 0;
+}
+.header__nav--menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+}
+.header__nav--menu li{
+    display: inline-block;
+    text-align: center;
+}
+.header__nav {
+    display: inline-block;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+.banner {
+    overflow: hidden;
+    width: 100%;
+}
+.productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.header__logo{  
+    width: 75px;
+    height: 75px;
+}
+.productos--foto{  
+    width: 250px;
+    height: 250px;
+}
+.quienessomos--foto{  
+    width: 500px;
+    height: 500px;
+}
+p{
+    font-size: 20px;
+}
+.quienessomos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.quienessomos--texto{
+    width: 40%;
+    margin-top: 35px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+footer{
+    background-color: #FFD46B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.Encontranos{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: #DDAA3B;
+    padding: 25px;
+    margin-bottom: 35px;
+}
+.formulario{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+label{
+    margin-bottom: 15px;
+}
+
+.campo {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+.enviar{
+    width: 150px;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.cuerpo{
+    display: flex;
+}
+.listaproductos{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.navproductos{
+    list-style: none;
+}
+.galeria{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
