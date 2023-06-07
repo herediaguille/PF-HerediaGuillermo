@@ -5,24 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="shortcut icon" href="../img/logoarteyestilo.png" type="image/x-icon">
 </head>
 <body>
-    <header class="header">
-        <img src="../img/logoarteyestilo.png" alt="Logo arte y estilo" class="header__logo">
-        <nav class="header__nav">
-            <ul class="header__nav--menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../index.html#quienes-somos">Quienes somos</a></li>
-                <li><a href="../pages/productos.html">productos</a></li>
-                <li><a href="../pages/contacto.html">contacto</a></li>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="../img/logoarteyestilo.png" alt="Logo arte y estilo" class="header__logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../#quienessomos">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
             </ul>
-        </nav>
-        <div id="Buscador">
-            <input type="search" name="Busqueda">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-    </header> 
+    </nav>
     <img src="../img/bannerarteyestilo.jpg" alt="bannerarteyestilo" class="banner">
     <h1>Nuestros Productos</h1>    
     <main class="cuerpo">
@@ -38,29 +55,40 @@
             </ul>
         </nav>
         <article class="galeria">
-            <div>
-                <img src="../img/LamparaOvni.jpg" alt="Lampara Ovni" class="productos--foto">
-                <p>Lampara Ovni</p>
-            </div>
-            <div>
-                <img src="../img/Lamparacolgante.jpg" alt="Lampara Colgante" class="productos--foto">
-                <p>Lampara Colgante</p>
-            </div>
-            <div>
-                <img src="../img/mesanordica.jpg" alt="Mesa Nordica" class="productos--foto">
-                <p>Mesa Nordica</p>
-            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <img src="../img/Lampara.jpg" alt="Lampara Grande" class="galeria"> 
+                    <p>Lampara de 3 Luces</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <img src="../img/Lamparacolgante.jpg" alt="Lampara Colgante" class="galeria">
+                    <p>Lampara Colgante</p> 
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <img src="../img/LamparaOvni.jpg" alt="Lampara Ovni" class="galeria">
+                    <p>Lampara Ovni</p> 
+                </div>
+            </div>    
         </article>
     </main>
-    <footer>
-        <div> 
-            <p>+54 11 486332002</p>
-            <p>arteyestilomh@gmail.com</p>
-            <p>Cordoba, capital.</p>
+    <footer class="footer">
+        <div>
+            <ul class="datoscontacto"> 
+              <li class="nav-item">
+                <a class="nav-link" href="">+54 11 48633202</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">arteyestilomh@gmail.com</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Cordoba capital</a>
+              </li>
+            </ul>
         </div>
         <div>
             <img src="../img/logoarteyestilo.png" alt="Logo arte y estilo" class="header__logo">
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
