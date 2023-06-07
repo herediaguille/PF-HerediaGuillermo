@@ -10,6 +10,9 @@
     flex-direction: row;
     justify-content: space-around;
 }
+.navbar{
+    background-color: #FFD46B !important;
+}
 body{
     background-color: #FFD46B;
 }
@@ -45,6 +48,9 @@ h2 {
     overflow: hidden;
     width: 100%;
 }
+.galeria{
+    width: 100%; 
+}
 .productos{
     display: flex;
     flex-direction: row;
@@ -58,9 +64,8 @@ h2 {
     width: 250px;
     height: 250px;
 }
-.quienessomos--foto{  
-    width: 500px;
-    height: 500px;
+.quienessomos--foto{
+    width: 100%;
 }
 p{
     font-size: 20px;
@@ -70,6 +75,7 @@ p{
     flex-direction: row;
     justify-content: space-around;
     margin-top: 25px;
+    width: 100%;
 }
 .quienessomos--texto{
     width: 40%;
@@ -139,4 +145,7 @@ label{
     width: 80%;
     display: flex;
     justify-content: space-around;
+}
+.datoscontacto{
+    list-style-type: none;
 }
