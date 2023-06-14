@@ -46,31 +46,36 @@
         <P> arteyestilomh@gmail.com </P>
         <p> Córdoba, Capital </p>
     </section>
-    <form action="#" class="formulario">
-
-        <label for="name">Nombre y Apellido</label>
-        <input type="text" name="Nombre y Apellido" placeholder="Nombre y Apellido" class="campo">
-
-        <label for="email">Ingrese su email</label>
-        <input type="email" name="email" placeholder="Ingresa tu corrreo" class="campo">
-
-        <label for="number">Numero de teléfono</label>
-        <input type="number" name="Numero de telefono" placeholder="Numero de telefono" class="campo">
-
-        <label for="ciudad">Ciudad</label>
-        <input type="text" name="Ciudad" placeholder="Ciudad" class="campo">
-
-        <label for="Asunto">Asunto</label>
-        <input type="text" name="Asunto" placeholder="Asunto" class="campo">
-
-        <label for="mensaje">Mensaje</label>
-        <textarea name="Mensaje" id="mensaje" cols="30" rows="10" placeholder="Ingresa tu menaje" class="campo"></textarea>
-
-        <span>
-            <input type="checkbox" name="quiero recibir novedades" id="Enviar notificaciones">
-            <label for="Novedades">Quiero recibir novedades</label>
-        </span>    
-        <input type="submit" name="Enviar" value="Enviar Mensaje" class="enviar">
+    <form class="container p-5 my-5">
+      <div class="mb-3">
+        <label for="name" class="form-label">Nombre y Apellido</label>
+        <input type="text" class="form-control" name="Nombre y Apellido" placeholder="Nombre y Apellido">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" name="email" placeholder="Ingresa tu correo">
+      </div>
+      <div class="mb-3">
+        <label for="number" class="form-label">Numero de teléfono</label>
+        <input type="text" class="form-control" name="Numero de telefono" placeholder="Numero de telefono">
+      </div>
+      <div class="mb-3">
+        <label for="ciudad" class="form-label">Ciudad</label>
+        <input type="text" class="form-control" name="Ciudad" placeholder="Ciudad">
+      </div> 
+      <div class="mb-3">
+        <label for="Asunto" class="form-label">Asunto</label>
+        <input type="text" class="form-control" name="Asunto" placeholder="Asunto">
+      </div>  
+      <div class="mb-3">
+        <label for="menaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Ingresa tu menaje" rows="3"></textarea>
+      </div>    
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Quiero recibir novedades</label>
+      </div class="d-flex justify-content-center">
+      <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
     <footer class="footer">
         <div>
