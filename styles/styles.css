@@ -26,14 +26,6 @@ body{
     padding: 20px;
     display: inline-block;
 }
-.header__nav--menu li{
-    display: inline-block;
-    text-align: center;
-}
-.header__nav {
-    display: inline-block;
-    text-align: center;
-}
 h1 {
     text-align: center;
     margin: 20px;
@@ -129,9 +121,7 @@ label{
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.cuerpo{
-    display: flex;
-}
+
 .listaproductos{
     width: 20%;
     display: flex;
