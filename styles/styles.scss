@@ -1,0 +1,76 @@
+// colores
+$colorprimario: #FFD46B; 
+
+*{
+    font-family: librebidibu-regular;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: $colorprimario !important;
+}
+body{
+    background-color: $colorprimario;
+}
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+h2 {
+    text-align: center;
+    margin: 20px;
+}
+.banner {
+    overflow: hidden;
+    width: 100%;
+}
+.header__logo{  
+    width: 75px;
+    height: 75px;
+}
+.quienessomos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+    width: 100%;
+    &--foto{
+        width: 100%;
+    } 
+    &--texto{
+        width: 40%;
+        margin-top: 35px;
+    }   
+}
+p{
+    font-size: 20px;
+}
+footer{
+    background-color: $colorprimario;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.Encontranos{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: #DDAA3B;
+    padding: 25px;
+    margin-bottom: 35px;
+}
+label{
+    margin-bottom: 15px;
+}
+.galeria{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.datoscontacto{
+    list-style-type: none;
+}
