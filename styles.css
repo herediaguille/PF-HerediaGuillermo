@@ -1,6 +1,5 @@
-
 * {
-  font-family: 'Libre Bodoni', serif;
+  font-family: librebidibu-regular;
   margin: 0;
   padding: 0;
 }
@@ -28,10 +27,6 @@ h2 {
   width: 100%;
 }
 
-.galeria {
-  width: 100%;
-}
-
 .header__logo {
   width: 75px;
   height: 75px;
@@ -40,7 +35,6 @@ h2 {
 .quienessomos--foto {
   width: 100%;
 }
-
 .quienessomos--texto {
   width: 40%;
   margin-top: 35px;
