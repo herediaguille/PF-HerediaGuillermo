@@ -1,7 +1,10 @@
 // colores
 $colorprimario: #FFD46B; 
+//tipografia
+$tipografia: 'Libre Bodoni', serif;
+
 *{
-    font-family: librebidibu-regular;
+    font-family: $tipografia;
     margin: 0;
     padding: 0;
 }
@@ -11,22 +14,21 @@ $colorprimario: #FFD46B;
 body{
     background-color: $colorprimario;
 }
-h1 {
+@mixin titulos-center{
     text-align: center;
-    margin: 20px;
+    margin: 20px;    
+}
+h1 {
+    @include titulos-center
 }
 h2 {
-    text-align: center;
-    margin: 20px;
+    @include titulos-center
 }
 .banner {
     overflow: hidden;
     width: 100%;
 }
-.header__logo{  
-    width: 75px;
-    height: 75px;
-}
+
 .quienessomos{
     &--foto{
         width: 100%;
@@ -69,4 +71,29 @@ label{
 }
 .datoscontacto{
     list-style-type: none;
+}
+//animacion
+.header__logo{
+    width: 75px;
+    height: 75px;
+    animation-name: animacion-logo;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
+@keyframes animacion-logo {
+    0% {
+        width: 75px;
+        height: 75px;
+    }
+    50% {
+        width: 100px !important;
+        height: 100px !important;
+    }
+    100% {
+        width: 75px;
+        height: 75px;
+    }
 }

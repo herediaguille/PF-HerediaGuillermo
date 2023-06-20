@@ -1,5 +1,5 @@
 * {
-  font-family: librebidibu-regular;
+  font-family: "Libre Bodoni", serif;
   margin: 0;
   padding: 0;
 }
@@ -25,11 +25,6 @@ h2 {
 .banner {
   overflow: hidden;
   width: 100%;
-}
-
-.header__logo {
-  width: 75px;
-  height: 75px;
 }
 
 .quienessomos--foto {
@@ -78,6 +73,31 @@ label {
 
 .datoscontacto {
   list-style-type: none;
+}
+
+.header__logo {
+  width: 75px;
+  height: 75px;
+  animation-name: animacion-logo;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+
+@keyframes animacion-logo {
+  0% {
+    width: 75px;
+    height: 75px;
+  }
+  50% {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  100% {
+    width: 75px;
+    height: 75px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

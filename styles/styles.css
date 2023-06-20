@@ -32,11 +32,6 @@ h2 {
   width: 100%;
 }
 
-.header__logo {
-  width: 75px;
-  height: 75px;
-}
-
 .quienessomos--foto {
   width: 100%;
 }
@@ -84,6 +79,31 @@ label {
 
 .datoscontacto {
   list-style-type: none;
+}
+
+.header__logo{
+    width: 75px;
+    height: 75px;
+    animation-name: animacion-logo;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
+@keyframes eanimacion-logo {
+    0% {
+        width: 75px;
+        height: 75px;
+    }
+    50% {
+        width: 100px;
+        height: 100px;
+    }
+    100% {
+        width: 75px;
+        height: 75px;
+    }
 }
 
 /*# sourceMappingURL=styles.css.map */
