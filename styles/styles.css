@@ -50,10 +50,6 @@ footer {
   margin-top: 35px;
 }
 
-.footer--responsive {
-  background-color: #FFD46B;
-}
-
 .Encontranos {
   text-align: center;
   display: flex;
@@ -82,7 +78,6 @@ label {
 
 .btn--color:hover {
   background-color: #DDAA3B !important;
-  border-color: #DDAA3B !important;
 }
 
 .header__logo {
