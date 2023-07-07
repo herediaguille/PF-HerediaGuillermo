@@ -1,6 +1,6 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap");
 * {
-  font-family: 'Libre Bodoni', serif;
+  font-family: "Libre Bodoni", serif;
   margin: 0;
   padding: 0;
 }
@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #FFD46B;
+  background-color: #FFE19E;
 }
 
 h1 {
@@ -28,14 +28,9 @@ h2 {
   width: 100%;
 }
 
-.galeria {
-  width: 100%;
-}
-
 .quienessomos--foto {
   width: 100%;
 }
-
 .quienessomos--texto {
   width: 40%;
   margin-top: 35px;
@@ -53,6 +48,10 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   margin-top: 35px;
+}
+
+.footer--responsive {
+  background-color: #FFD46B;
 }
 
 .Encontranos {
@@ -81,29 +80,33 @@ label {
   list-style-type: none;
 }
 
-.header__logo{
-    width: 75px;
-    height: 75px;
-    animation-name: animacion-logo;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 5s;
-    animation-delay: 1s;
+.btn--color:hover {
+  background-color: #DDAA3B !important;
 }
 
-@keyframes eanimacion-logo {
-    0% {
-        width: 75px;
-        height: 75px;
-    }
-    50% {
-        width: 100px;
-        height: 100px;
-    }
-    100% {
-        width: 75px;
-        height: 75px;
-    }
+.header__logo {
+  width: 75px;
+  height: 75px;
+  animation-name: animacion-logo;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+
+@keyframes animacion-logo {
+  0% {
+    width: 75px;
+    height: 75px;
+  }
+  50% {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  100% {
+    width: 75px;
+    height: 75px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,6 +1,7 @@
 // colores
 $colorprimario: #FFD46B; 
 //tipografia
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
 $tipografia: 'Libre Bodoni', serif;
 
 *{
@@ -12,7 +13,7 @@ $tipografia: 'Libre Bodoni', serif;
     background-color: $colorprimario !important;
 }
 body{
-    background-color: $colorprimario;
+    background-color: #FFE19E;
 }
 @mixin titulos-center{
     text-align: center;
@@ -50,6 +51,9 @@ footer{
     justify-content: space-around;
     margin-top: 35px;
 }
+.footer--responsive{
+    background-color: #FFD46B;
+}
 .Encontranos{
     text-align: center;
     display: flex;
@@ -71,6 +75,9 @@ label{
 }
 .datoscontacto{
     list-style-type: none;
+}
+.btn--color:hover{
+    background-color: #DDAA3B !important;
 }
 //animacion
 .header__logo{
