@@ -2,7 +2,9 @@
     overflow: hidden;
     width: 100%;
 }
-
+.form--buscador{
+    background-color: $colorprimario !important;
+}
 .quienessomos{
     &--foto{
         width: 100%;

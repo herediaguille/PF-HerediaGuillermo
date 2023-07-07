@@ -28,6 +28,10 @@ h2 {
   width: 100%;
 }
 
+.form--buscador {
+  background-color: #FFD46B !important;
+}
+
 .quienessomos--foto {
   width: 100%;
 }
