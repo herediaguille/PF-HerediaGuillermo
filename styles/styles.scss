@@ -1,106 +1,13 @@
-// colores
-$colorprimario: #FFD46B; 
+//colores
+@import 'content/colores';
 //tipografia
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
 $tipografia: 'Libre Bodoni', serif;
-
-*{
-    font-family: $tipografia;
-    margin: 0;
-    padding: 0;
-}
-.navbar{
-    background-color: $colorprimario !important;
-}
-body{
-    background-color: #FFE19E;
-}
-@mixin titulos-center{
-    text-align: center;
-    margin: 20px;    
-}
-h1 {
-    @include titulos-center
-}
-h2 {
-    @include titulos-center
-}
-.banner {
-    overflow: hidden;
-    width: 100%;
-}
-
-.quienessomos{
-    &--foto{
-        width: 100%;
-    } 
-    &--texto{
-        width: 40%;
-        margin-top: 35px;
-    }   
-}
-p{
-    font-size: 20px;
-    text-align: center;
-    margin: 15px;
-}
-footer{
-    background-color: $colorprimario;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 35px;
-}
-.footer--responsive{
-    background-color: #FFD46B;
-}
-.Encontranos{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    background-color: #DDAA3B;
-    padding: 25px;
-    margin-bottom: 35px;
-}
-label{
-    margin-bottom: 15px;
-}
-.galeria{
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-}
-.datoscontacto{
-    list-style-type: none;
-}
-.btn--color:hover{
-    background-color: #DDAA3B !important;
-}
+//principal y colores de fondo
+@import 'content/principal';
+//titulos mixin
+@import 'content/titulos';
+// Estructura general
+@import 'content/estructura';
 //animacion
-.header__logo{
-    width: 75px;
-    height: 75px;
-    animation-name: animacion-logo;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 5s;
-    animation-delay: 1s;
-}
-
-@keyframes animacion-logo {
-    0% {
-        width: 75px;
-        height: 75px;
-    }
-    50% {
-        width: 100px !important;
-        height: 100px !important;
-    }
-    100% {
-        width: 75px;
-        height: 75px;
-    }
-}
+@import 'content/animacion';

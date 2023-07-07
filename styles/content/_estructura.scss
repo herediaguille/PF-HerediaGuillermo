@@ -1,0 +1,55 @@
+.banner {
+    overflow: hidden;
+    width: 100%;
+}
+
+.quienessomos{
+    &--foto{
+        width: 100%;
+    } 
+    &--texto{
+        width: 40%;
+        margin-top: 35px;
+    }   
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+}
+footer{
+    background-color: $colorprimario;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.footer--responsive{
+    background-color: $colorprimario;
+}
+.Encontranos{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: $colorsecundario;
+    padding: 25px;
+    margin-bottom: 35px;
+}
+label{
+    margin-bottom: 15px;
+}
+.galeria{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.datoscontacto{
+    list-style-type: none;
+}
+.btn--color:hover{
+    background-color: $colorsecundario !important;
+    border-color: $colorsecundario !important;
+}

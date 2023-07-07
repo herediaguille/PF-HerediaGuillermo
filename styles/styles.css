@@ -82,6 +82,7 @@ label {
 
 .btn--color:hover {
   background-color: #DDAA3B !important;
+  border-color: #DDAA3B !important;
 }
 
 .header__logo {

@@ -1,0 +1,10 @@
+@mixin titulos-center{
+    text-align: center;
+    margin: 20px;    
+}
+h1 {
+    @include titulos-center
+}
+h2 {
+    @include titulos-center
+}
