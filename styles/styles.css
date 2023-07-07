@@ -50,6 +50,10 @@ footer {
   margin-top: 35px;
 }
 
+.footer--responsive {
+  background-color: #FFD46B;
+}
+
 .Encontranos {
   text-align: center;
   display: flex;
@@ -78,6 +82,7 @@ label {
 
 .btn--color:hover {
   background-color: #DDAA3B !important;
+  border-color: #DDAA3B !important;
 }
 
 .header__logo {
@@ -87,21 +92,18 @@ label {
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: 5s;
-  animation-delay: 1s;
+  animation-delay: 0s;
 }
 
 @keyframes animacion-logo {
   0% {
-    width: 75px;
-    height: 75px;
+    transform: translatex(0px);
   }
   50% {
-    width: 100px !important;
-    height: 100px !important;
+    transform: translatex(26px);
   }
   100% {
-    width: 75px;
-    height: 75px;
+    transform: translatex(0px);
   }
 }
 
